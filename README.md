@@ -1,6 +1,6 @@
-# FreeMusicArchive
+# The Free Music Archive Ruby Gem
 
-TODO: Write a gem description
+A Ruby wrapper for the Free Music Archive API
 
 ## Installation
 
