@@ -13,5 +13,13 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "freemusicarchive"
   gem.require_paths = ["lib"]
-  gem.version       = Freemusicarchive::VERSION
+  gem.version       = FreeMusicArchive::VERSION
+  
+  gem.add_dependency 'faraday', '~> 0.7'
+  gem.add_runtime_dependency('faraday_middleware', '~> 0.8')
+  gem.add_runtime_dependency('hashie',  '>= 0.4.0')
+  gem.add_runtime_dependency('multi_xml', '~> 0.4.4')
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'rspec'
+  gem.add_development_dependency('webmock', '~> 1.6')
 end

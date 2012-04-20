@@ -1,4 +1,4 @@
-# Freemusicarchive
+# FreeMusicArchive
 
 TODO: Write a gem description
 
